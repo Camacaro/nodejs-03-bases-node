@@ -14,7 +14,7 @@ const opts = {
 //command(comando, mensaje de ayuda por consola, es un objeto y se especifican los flags a recibir... demand es que sea obligatorio, alias es otro nombre para el flag)
 //help(), es para que aparezca en el mensaje de ayuda mi comando
 const argv = require('yargs')
-	.command('listar','Imprime en consola la tabla de miltiplicar',opts)
+	.command('listar','Imprime en consola la tabla de multiplicar',opts)
 	.command('crear', 'Crea un archivo de la tabla de multiplicar',opts)
 	.help()
 	.argv;
